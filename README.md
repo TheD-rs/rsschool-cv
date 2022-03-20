@@ -1,1 +1,1 @@
-# rsschool-cv
+https://TheD-rs.github.io/rsschool-cv/cv
