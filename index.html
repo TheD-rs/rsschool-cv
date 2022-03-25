@@ -4,7 +4,156 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;700&family=Roboto:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>cv</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Contacts</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">About Me</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Skills</a>
+            </li>
+            <li class="menu__item"><a class="menu__link" href="#">Code</a></li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Projects</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Education</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="sectoin section__profile" id="profile">
+          <img class="section__ava" src="assets/img/ava.jpg" alt="avatar" />
+          <div class="section__item">
+            <h1 class="section__name">Zvonarev Aleksei</h1>
+            <div class="line"></div>
+            <h3 class="section__prof">junior front-end developer</h3>
+          </div>
+        </section>
+        <section class="sectoin">
+          <div class="section__block">
+            <h2 class="section__title">Contacts</h2>
+            <ul class="section__menu">
+              <li class="section__menu-item">Teleagram: TheDevonik</li>
+              <li class="section__menu-item">GitHub: TheD-rs</li>
+            </ul>
+          </div>
+        </section>
+        <section class="sectoin">
+          <div class="section__block">
+            <h2 class="section__title">About Me</h2>
+            <div class="section__text">
+              I want to become a front-end developer and I’m doing my best for
+              it. My qualities are communication skills, initiative, the ability
+              to work in a team, and I also have no bad habits.
+            </div>
+          </div>
+        </section>
+        <section class="sectoin">
+          <div class="section__block">
+            <h2 class="section__title">Skills</h2>
+            <ul class="section__menu">
+              <li class="section__skills">HTML5</li>
+              <li class="section__skills">CSS3</li>
+              <li class="section__skills">Git</li>
+              <li class="section__skills">Baisic JS</li>
+            </ul>
+          </div>
+        </section>
+        <section class="sectoin">
+          <div class="section__block">
+            <h2 class="section__title">Code Examples</h2>
+            <pre class="pre">
+<code>function multiply(a, b) {
+ return a * b;
+}</code></pre>
+          </div>
+        </section>
+        <section class="sectoin">
+          <div class="section__block">
+            <h2 class="section__title">Courses</h2>
+            <ul class="section__menu">
+              <li class="courses">
+                RS Schools Course: JavaScript/Front-end Stage 0
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="sectoin">
+          <div class="section__block">
+            <h2 class="section__title">Education Projects</h2>
+            <ul class="section__menu">
+              <li class="section__project">
+                <a
+                  target="_blanc"
+                  class="section__project-portfolio"
+                  href="https://thed-rs.github.io/portfolio/"
+                  >Portfolio</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="sectoin">
+          <div class="section__block">
+            <h2 class="section__title">Education</h2>
+            <ul class="section__menu">
+              <li class="section__education">
+                Moscow Financial Law University MFYUA (Yaroslavl branch)
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="sectoin">
+          <div class="section__block">
+            <h2 class="section__title">Languages</h2>
+            <ul class="section__menu">
+              <li class="section__lang">Russian - native</li>
+              <li class="section__lang">English - A2 ~ B1</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__inner">
+          <div class="footer__copy">2022 &copy;</div>
+          <div class="footer__gh">
+            <a class="footer__logo" href="https://github.com/TheD-rs"
+              >TheD-rs</a
+            >
+          </div>
+          <div class="footer__rs">
+            <img
+              class="footer__logo"
+              src="assets/icon/rs_school_js.svg"
+              alt="rs"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
