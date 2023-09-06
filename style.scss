@@ -188,6 +188,13 @@ section {
   }
 }
 
+.section__menu-item-link {
+  color: #4d2323;
+  &:hover {
+    color: #c65b5b;
+  }
+}
+
 .section__block {
   border-bottom: 1px solid #4d2323;
   margin-bottom: 30px;
@@ -223,6 +230,10 @@ code {
 .section__project-portfolio {
   color: #4d2323;
   font-size: 16px;
+  transition: color 0.3s linear;
+  &:hover {
+    color: #c65b5b;
+  }
 }
 
 .section__lang {
