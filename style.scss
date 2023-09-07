@@ -285,3 +285,23 @@ code {
 .courses__link {
   color: #4d2323;
 }
+
+
+//media
+
+@media (max-width: 850px) {
+  .menu__list {
+    display: none;
+  }
+  .section__profile {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+  }
+  .section__name {
+    padding-bottom: 10px;
+  }
+  .section__prof {
+    padding-top: 10px;
+  }
+}
